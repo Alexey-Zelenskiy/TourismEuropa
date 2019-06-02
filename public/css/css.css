@@ -1,0 +1,29 @@
+#app {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 1em auto;
+    width: 600px;
+}
+#app .el-card {
+    margin-top: 2em;
+}
+#app .el-card .el-card__header .btn {
+    float: right;
+    margin-left: 10px;
+}
+#app .el-card .el-carousel__item span {
+    opacity: 0;
+    line-height: 200px;
+    margin: 0;
+}
+#app .el-card .el-carousel__item:nth-child(2n) {
+    background-color: #99a9bf;
+}
+#app .el-card .el-carousel__item:nth-child(2n+1) {
+    background-color: #d3dce6;
+}
+#app .el-dialog {
+    width: 600px;
+}
+.el-notification {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}

@@ -1,0 +1,41 @@
+
+<ul  id="nav1"><li id="nav" className="current" onClick={()=>this.showTexts()}>Отдых</li>
+{this.state.showText1 ===false && showText&&
+  <div className="s">
+
+  <YMaps>
+
+{
+  <div>
+
+{showMap &&
+  // When initializing the map, you must specify
+  // its center and the zoo
+  // m factor.
+
+  <Map state={mapState1} width={width1} height={height}/>}
+</div>
+}
+
+
+
+
+
+
+
+</YMaps>
+</div>
+}
+
+
+<li id="nav4" className="current" onClick={()=>this.showTexts1()}>Валюта</li>
+{this.state.showText===false && showText1 &&
+<div className="s">
+
+<a>В день 28 фев. 2002 года произошел исторический день, когда во многих стран Евро Союза, и Австрия в частности, были убраны из повседневного обращения нац.купюры и введена ЕВРО, общая европейская валюта.
+В магазинах и других заведениях принимаются всевозможные кредитные международные карточки, ведущих банков.
+Чаевые даются в таком же эквиваленте, как и в Украине, а именно 5-15% в зависимости от обслуживания и Вашего личного настроения и желания. Услуги носильщиков на вокзалах и в аэропорту оплачиваются по фиксированным тарифам, носильщику в отеле дайте 15 центов за одно место багажа.</a>
+</div>
+}
+
+</ul>

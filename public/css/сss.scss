@@ -1,0 +1,94 @@
+.next,
+.next::before,
+.next::after,
+.next span,
+.next span::before,
+.next span::after
+{
+  transition: all ease .5s;
+}
+
+.next{
+  position: relative;
+  display: inline-block;
+  padding: 0.3em;
+  margin: 1em;
+  border: solid 1px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.next:hover
+{
+  box-shadow: 0 0 5em .5em rgba(50,50,150,0.5);
+}
+
+.next span
+{
+  display: inline-block;
+  width: 100%;
+  padding: 0.6em 2em;
+}
+
+.next:hover span
+{
+  background-color: #fff;
+  color: #112;
+}
+
+.next::before,
+.next::after,
+.next span::before,
+.next span::after
+{
+  content: '';
+  position: absolute;
+  border: 1px;
+}
+
+.next::before,
+.next span::before
+{
+  border-style: solid none;
+}
+
+.next::before,
+.next span::after{
+  left: 0;
+  top: -0.4em;
+  width: 100%;
+  height: calc(100% + 0.8em);
+}
+
+.next::after,
+.next span::after
+{
+  border-style: none solid;
+}
+
+.next::after,
+.next span::before
+{
+  top: 0;
+  left: -0.4em;
+  height: 100%;
+  width: calc(100% + 0.8em);
+}
+
+.next:hover::after,
+.next:hover span::after
+{
+  transform: scaleY(0);
+}
+
+.next:hover::before,
+.next:hover span::before
+{
+  transform: scaleX(0);
+}
+
+.next:hover span::after,
+.next:hover span::before
+{
+  opacity: 0;
+}

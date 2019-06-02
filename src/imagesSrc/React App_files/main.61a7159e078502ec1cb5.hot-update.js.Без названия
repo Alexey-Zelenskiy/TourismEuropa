@@ -1,0 +1,553 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/components/pages/Countrys/Belgium.js":
+/*!**************************************************!*\
+  !*** ./src/components/pages/Countrys/Belgium.js ***!
+  \**************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/regenerator */ "./node_modules/@babel/runtime/regenerator/index.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime/helpers/esm/classCallCheck.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/createClass */ "./node_modules/@babel/runtime/helpers/esm/createClass.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/inherits */ "./node_modules/@babel/runtime/helpers/esm/inherits.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/es/index.js");
+/* harmony import */ var _okta_okta_react__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @okta/okta-react */ "./node_modules/@okta/okta-react/dist/index.js");
+/* harmony import */ var _okta_okta_react__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_okta_okta_react__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _Country__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../Country */ "./src/components/pages/Country.js");
+/* harmony import */ var semantic_ui_react__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! semantic-ui-react */ "./node_modules/semantic-ui-react/dist/es/index.js");
+/* harmony import */ var _imagesSrc_douwn_png__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../../../imagesSrc/douwn.png */ "./src/imagesSrc/douwn.png");
+/* harmony import */ var _imagesSrc_douwn_png__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(_imagesSrc_douwn_png__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _imagesSrc_Austria_Austria_jpg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../../../imagesSrc/Austria/Austria.jpg */ "./src/imagesSrc/Austria/Austria.jpg");
+/* harmony import */ var _imagesSrc_Austria_Austria_jpg__WEBPACK_IMPORTED_MODULE_13___default = /*#__PURE__*/__webpack_require__.n(_imagesSrc_Austria_Austria_jpg__WEBPACK_IMPORTED_MODULE_13__);
+/* harmony import */ var _imagesSrc_pointer_png__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ../../../imagesSrc/pointer.png */ "./src/imagesSrc/pointer.png");
+/* harmony import */ var _imagesSrc_pointer_png__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(_imagesSrc_pointer_png__WEBPACK_IMPORTED_MODULE_14__);
+/* harmony import */ var _imagesSrc_up_png__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ../../../imagesSrc/up.png */ "./src/imagesSrc/up.png");
+/* harmony import */ var _imagesSrc_up_png__WEBPACK_IMPORTED_MODULE_15___default = /*#__PURE__*/__webpack_require__.n(_imagesSrc_up_png__WEBPACK_IMPORTED_MODULE_15__);
+/* harmony import */ var react_open_weather__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! react-open-weather */ "./node_modules/react-open-weather/lib/js/ReactWeather.js");
+/* harmony import */ var react_open_weather__WEBPACK_IMPORTED_MODULE_16___default = /*#__PURE__*/__webpack_require__.n(react_open_weather__WEBPACK_IMPORTED_MODULE_16__);
+/* harmony import */ var react_open_weather_lib_css_ReactWeather_css__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! react-open-weather/lib/css/ReactWeather.css */ "./node_modules/react-open-weather/lib/css/ReactWeather.css");
+/* harmony import */ var react_open_weather_lib_css_ReactWeather_css__WEBPACK_IMPORTED_MODULE_17___default = /*#__PURE__*/__webpack_require__.n(react_open_weather_lib_css_ReactWeather_css__WEBPACK_IMPORTED_MODULE_17__);
+/* harmony import */ var react_weathericons__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! react-weathericons */ "./node_modules/react-weathericons/lib/index.js");
+/* harmony import */ var react_weathericons__WEBPACK_IMPORTED_MODULE_18___default = /*#__PURE__*/__webpack_require__.n(react_weathericons__WEBPACK_IMPORTED_MODULE_18__);
+/* harmony import */ var react_slideshow_image__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! react-slideshow-image */ "./node_modules/react-slideshow-image/lib/index.js");
+/* harmony import */ var react_slideshow_image__WEBPACK_IMPORTED_MODULE_19___default = /*#__PURE__*/__webpack_require__.n(react_slideshow_image__WEBPACK_IMPORTED_MODULE_19__);
+/* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! react-image-gallery/styles/css/image-gallery.css */ "./node_modules/react-image-gallery/styles/css/image-gallery.css");
+/* harmony import */ var react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_20___default = /*#__PURE__*/__webpack_require__.n(react_image_gallery_styles_css_image_gallery_css__WEBPACK_IMPORTED_MODULE_20__);
+/* harmony import */ var _layout_Navbar__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ../../layout/Navbar */ "./src/components/layout/Navbar.js");
+/* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! react-perfect-scrollbar/dist/css/styles.css */ "./node_modules/react-perfect-scrollbar/dist/css/styles.css");
+/* harmony import */ var react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22___default = /*#__PURE__*/__webpack_require__.n(react_perfect_scrollbar_dist_css_styles_css__WEBPACK_IMPORTED_MODULE_22__);
+/* harmony import */ var react_yandex_maps__WEBPACK_IMPORTED_MODULE_23__ = __webpack_require__(/*! react-yandex-maps */ "./node_modules/react-yandex-maps/dist/react-yandex-maps.umd.production.min.js");
+/* harmony import */ var react_yandex_maps__WEBPACK_IMPORTED_MODULE_23___default = /*#__PURE__*/__webpack_require__.n(react_yandex_maps__WEBPACK_IMPORTED_MODULE_23__);
+/* harmony import */ var react_responsive_modal__WEBPACK_IMPORTED_MODULE_24__ = __webpack_require__(/*! react-responsive-modal */ "./node_modules/react-responsive-modal/lib/index.es.js");
+
+
+
+
+
+
+
+var _jsxFileName = "C:\\Users\\Lex\\Documents\\my-project\\src\\components\\pages\\Countrys\\Belgium.js";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+var mapState = {
+  center: [50.534033, 4.813257],
+  zoom: 8,
+  bounds: undefined
+};
+var mapState1 = {
+  center: [50.850195, 4.352007],
+  zoom: 12,
+  bounds: undefined
+};
+/* harmony default export */ __webpack_exports__["default"] = (Object(_okta_okta_react__WEBPACK_IMPORTED_MODULE_9__["withAuth"])(
+/*#__PURE__*/
+function (_Component) {
+  Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_6__["default"])(Belgium, _Component);
+
+  function Belgium() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Belgium);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_4__["default"])(this, (_getPrototypeOf2 = Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_5__["default"])(Belgium)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    _this.state = {
+      authenticated: null,
+      showWeather: false,
+      showSlide: true,
+      showMap: true,
+      width: 1100,
+      width1: 750,
+      height: 500,
+      small: true,
+      showText: false,
+      showText1: false,
+      showText2: false,
+      open: false,
+      drop: false
+    };
+    _this.checkAuthentication =
+    /*#__PURE__*/
+    Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+    /*#__PURE__*/
+    C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee() {
+      var authenticated;
+      return C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee$(_context) {
+        while (1) {
+          switch (_context.prev = _context.next) {
+            case 0:
+              _context.next = 2;
+              return _this.props.auth.isAuthenticated();
+
+            case 2:
+              authenticated = _context.sent;
+
+              if (authenticated !== _this.state.authenticated) {
+                _this.setState({
+                  authenticated: authenticated
+                });
+              }
+
+            case 4:
+            case "end":
+              return _context.stop();
+          }
+        }
+      }, _callee, this);
+    }));
+    _this.login =
+    /*#__PURE__*/
+    Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+    /*#__PURE__*/
+    C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee2() {
+      return C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee2$(_context2) {
+        while (1) {
+          switch (_context2.prev = _context2.next) {
+            case 0:
+              _this.props.auth.login('/');
+
+            case 1:
+            case "end":
+              return _context2.stop();
+          }
+        }
+      }, _callee2, this);
+    }));
+    _this.logout =
+    /*#__PURE__*/
+    Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+    /*#__PURE__*/
+    C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee3() {
+      return C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee3$(_context3) {
+        while (1) {
+          switch (_context3.prev = _context3.next) {
+            case 0:
+              _this.props.auth.logout('/');
+
+            case 1:
+            case "end":
+              return _context3.stop();
+          }
+        }
+      }, _callee3, this);
+    }));
+
+    _this.onClick_handler = function () {
+      _this.setState({
+        slide: 0,
+        weather: 0,
+        map: 0
+      });
+    };
+
+    _this.onOpenModal = function () {
+      _this.setState({
+        open: true
+      });
+    };
+
+    _this.onCloseModal = function () {
+      _this.setState({
+        open: false
+      });
+    };
+
+    return _this;
+  }
+
+  Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_3__["default"])(Belgium, [{
+    key: "toggleMap",
+    value: function toggleMap() {
+      var showMap = this.state.showMap;
+      this.setState({
+        showMap: !showMap,
+        showWeather: false,
+        showSlide: false
+      });
+    }
+  }, {
+    key: "weatherMap",
+    value: function weatherMap() {
+      var apikey = "597bea37916f4ffbb6c172914192501";
+      var showWeather = this.state.showWeather;
+      this.setState({
+        showWeather: !showWeather,
+        showSlide: false,
+        showMap: false
+      });
+    }
+  }, {
+    key: "showTexts",
+    value: function showTexts() {
+      var showText = this.state.showText;
+      this.setState({
+        showText: !showText,
+        showText1: false
+      });
+    }
+  }, {
+    key: "showTexts1",
+    value: function showTexts1() {
+      var showText1 = this.state.showText1;
+      this.setState({
+        showText1: !showText1,
+        showText: false
+      });
+    }
+  }, {
+    key: "dropDown",
+    value: function dropDown() {
+      var drop = this.state.drop;
+      this.setState({
+        drop: !drop
+      });
+    }
+  }, {
+    key: "componentDidMount",
+    value: function () {
+      var _componentDidMount = Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee4() {
+        return C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee4$(_context4) {
+          while (1) {
+            switch (_context4.prev = _context4.next) {
+              case 0:
+                this.checkAuthentication();
+
+              case 1:
+              case "end":
+                return _context4.stop();
+            }
+          }
+        }, _callee4, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
+  }, {
+    key: "componentDidUpdate",
+    value: function () {
+      var _componentDidUpdate = Object(C_Users_Lex_Documents_my_project_node_modules_babel_runtime_helpers_esm_asyncToGenerator__WEBPACK_IMPORTED_MODULE_1__["default"])(
+      /*#__PURE__*/
+      C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.mark(function _callee5() {
+        return C_Users_Lex_Documents_my_project_node_modules_babel_runtime_regenerator__WEBPACK_IMPORTED_MODULE_0___default.a.wrap(function _callee5$(_context5) {
+          while (1) {
+            switch (_context5.prev = _context5.next) {
+              case 0:
+                this.checkAuthentication();
+
+              case 1:
+              case "end":
+                return _context5.stop();
+            }
+          }
+        }, _callee5, this);
+      }));
+
+      function componentDidUpdate() {
+        return _componentDidUpdate.apply(this, arguments);
+      }
+
+      return componentDidUpdate;
+    }()
+  }, {
+    key: "resizeMap",
+    value: function resizeMap(prevProps) {
+      if (prevProps.small) {
+        return {
+          width: 2000,
+          height: 2000,
+          small: false
+        };
+      } else {
+        return {
+          width: 1100,
+          height: 500,
+          small: true
+        };
+      }
+    }
+  }, {
+    key: "render",
+    value: function render() {
+      var _this2 = this;
+
+      var showMap = this.state.showMap;
+      var _this$state = this.state,
+          showText = _this$state.showText,
+          showText1 = _this$state.showText1;
+      var showWeather = this.state.showWeather;
+      var _this$state2 = this.state,
+          open = _this$state2.open,
+          drop = _this$state2.drop;
+      var slideImages = ['https://xn----8sbiecm6bhdx8i.xn--p1ai/sites/default/files/images/shkolnikam/gora.jpg', 'https://xn----8sbiecm6bhdx8i.xn--p1ai/sites/default/files/images/shkolnikam/gora.jpg', 'https://xn----8sbiecm6bhdx8i.xn--p1ai/sites/default/files/images/shkolnikam/gora.jpg'];
+      var properties = {
+        duration: 5000,
+        transitionDuration: 500,
+        infinite: true,
+        indicators: true,
+        arrows: true
+      };
+      var apikey = "597bea37916f4ffbb6c172914192501";
+
+      var ReactWeather = __webpack_require__(/*! react-open-weather */ "./node_modules/react-open-weather/lib/js/ReactWeather.js").default; //Optional include of the default css styles
+
+
+      __webpack_require__(/*! react-open-weather/lib/css/ReactWeather.css */ "./node_modules/react-open-weather/lib/css/ReactWeather.css");
+
+      var _this$state3 = this.state,
+          width = _this$state3.width,
+          height = _this$state3.height,
+          small = _this$state3.small,
+          width1 = _this$state3.width1;
+      if (this.state.authenticated === null) return null;
+      var mainContent = this.state.authenticated ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "row",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 141
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "AustriaInside",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
+        className: "Country",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        },
+        __self: this
+      }, "\u0411\u0435\u043B\u044C\u0433\u0438\u044F"), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_yandex_maps__WEBPACK_IMPORTED_MODULE_23__["YMaps"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 150
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+        className: "button_country",
+        onClick: function onClick() {
+          return _this2.toggleMap();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 151
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("i", {
+        className: "icon",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153
+        },
+        __self: this
+      }, " "), showMap ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        className: "pizdarulyu2",
+        src: _imagesSrc_douwn_png__WEBPACK_IMPORTED_MODULE_12___default.a,
+        id: "Austria",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        className: "pizdarulyu2",
+        src: _imagesSrc_up_png__WEBPACK_IMPORTED_MODULE_15___default.a,
+        id: "Austria",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      })), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 159
+        },
+        __self: this
+      }, showMap && // When initializing the map, you must specify
+      // its center and the zoom factor.
+      react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_yandex_maps__WEBPACK_IMPORTED_MODULE_23__["Map"], {
+        state: mapState,
+        width: width,
+        height: height,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_yandex_maps__WEBPACK_IMPORTED_MODULE_23__["GeoObject"], {
+        onClick: this.onOpenModal // The geometry description.
+        ,
+        geometry: {
+          type: 'Point',
+          coordinates: [50.867629, 4.352845]
+        } // Properties.
+        ,
+        properties: {
+          // The placemark content.
+          iconContent: 'Я тащусь',
+          hintContent: 'Ну давай уже тащи'
+        } // Options.
+        ,
+        options: {
+          iconLayout: 'default#image',
+          // Custom image for the placemark icon.
+          iconImageHref: _imagesSrc_pointer_png__WEBPACK_IMPORTED_MODULE_14___default.a,
+          // The size of the placemark.
+          iconImageSize: [50, 50],
+          // The offset of the upper left corner of the icon relative
+          // to its "tail" (the anchor point).
+          iconImageOffset: [-3, -30]
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 167
+        },
+        __self: this
+      })))), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(react_responsive_modal__WEBPACK_IMPORTED_MODULE_24__["default"], {
+        className: "styles_modal__gNwvD",
+        open: open,
+        onClose: this.onCloseModal,
+        center: true,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 202
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        className: "div1",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 203
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 205
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("button", {
+        className: "city",
+        onClick: function onClick() {
+          return _this2.dropDown();
+        },
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 205
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("h1", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 205
+        },
+        __self: this
+      }, "\u0412\u0435\u043D\u0430"), drop ? react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        className: "button_down",
+        src: _imagesSrc_douwn_png__WEBPACK_IMPORTED_MODULE_12___default.a,
+        id: "Austria",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 206
+        },
+        __self: this
+      }) : react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("img", {
+        className: "button_down",
+        src: _imagesSrc_up_png__WEBPACK_IMPORTED_MODULE_15___default.a,
+        id: "Austria",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 206
+        },
+        __self: this
+      })), drop && react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 208
+        },
+        __self: this
+      }, "\u041A\u0430\u0440\u0442\u0430")))));
+      return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement("div", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 224
+        },
+        __self: this
+      }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_layout_Navbar__WEBPACK_IMPORTED_MODULE_21__["default"], {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 225
+        },
+        __self: this
+      }), mainContent);
+    }
+  }]);
+
+  return Belgium;
+}(react__WEBPACK_IMPORTED_MODULE_7__["Component"])));
+
+/***/ })
+
+})
+//# sourceMappingURL=main.61a7159e078502ec1cb5.hot-update.js.map
