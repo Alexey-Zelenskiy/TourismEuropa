@@ -60,7 +60,7 @@
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
     "semantic-ui-react": "^0.84.0",
-    "three": "^0.104.0",
+    "three": "^0.137.0",
     "validator": "^11.0.0",
     "yandex-map-react": "^1.1.1"
   },
